@@ -1,5 +1,9 @@
 #include "application.h"
 
+#ifndef SIMPLERINGBUFFER_H
+#define	SIMPLERINGBUFFER_H
+
+
 class SimpleRingBuffer {
     protected:
         uint8_t* _data;
@@ -21,3 +25,5 @@ class SimpleRingBuffer {
         void clear();
         void destroy();
 };
+
+#endif
